@@ -36,7 +36,7 @@ const InfoBox = styled(Flex)`
 `
 
 const TextBox = styled(Flex)`
-  width: 30rem;
+  width: 20rem;
   order: 0;
   @media screen and (max-width: 768px){
     order: 1;
