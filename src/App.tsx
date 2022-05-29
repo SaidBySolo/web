@@ -24,19 +24,19 @@ const MainFlexBox = styled(Center)`
 `
 
 const InfoBox = styled(Flex)`
-  height: 50vh;
-  width: 80vh;
-  flex-direction: row;
+  height: 25rem;
+  width: 42.5rem;
+  flex-direction: center;
   @media screen and (max-width: 768px){
-    height: 80vh;
-    width: 50vh;
+    height: 30rem;
+    width: 20rem;
     flex-direction: column;
   }
   ${theme(o => [o.bg.surface2, o.borderRadius(24)])}
 `
 
 const TextBox = styled(Flex)`
-  width: 70%;
+  width: 30rem;
   order: 0;
   @media screen and (max-width: 768px){
     order: 1;
