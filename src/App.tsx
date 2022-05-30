@@ -49,18 +49,37 @@ const TextBox = styled(Flex)`
 
 const Heading = styled.h1`
   @media screen and (max-width: 768px){
-    margin-top: 0;
+    font-size: 1.5em;
+    margin-top: 0px
   }
   ${theme(o => [o.font.text1, o.margin.horizontal(40), o.margin.top(40), o.margin.bottom(16)])}
 `
 
 const SubHeading = styled.h2`
+  @media screen and (max-width: 768px){
+    font-size: 1.25em;
+  }
   ${theme(o => [o.font.text1, o.margin.horizontal(40), o.margin.top(0), o.margin.bottom(24)])}
 `
 
-const TextLink = styled.a`
-  ${theme(o => [o.font.text2, o.margin.horizontal(40), o.margin.top(0), o.margin.bottom(16)])}
+const Text = styled.span`
+  font-size: 1.25em;
+  @media screen and (max-width: 768px){
+    font-size: 1em;
+    margin-bottom: 24px;
+    margin-top: 0px;
+  }
+  ${theme(o => [o.font.text2, o.margin.horizontal(40), o.margin.top(24), o.margin.bottom(64)])}
 `
+
+const TextLink = styled.a`
+  @media screen and (max-width: 768px){
+    font-size: 0.75em;
+  }
+  ${theme(o => [o.font.text4, o.margin.horizontal(40), o.margin.top(0), o.margin.bottom(16)])}
+`
+
+
 
 const Profile = styled(Center)`
   @media screen and (max-width: 768px){
@@ -85,6 +104,9 @@ const App = () => (
           <SubHeading>
             a.k.a SaidBySolo
           </SubHeading>
+          <Text>
+            Python {'&'} JavaScript Developer
+          </Text>
           <TextLink href="https://github.com/SaidBySolo">
             Github
           </TextLink>
