@@ -20,7 +20,9 @@ const Center = styled(Flex)`
 
 const MainFlexBox = styled(Center)`
   height: 100vh;
-  height: -webkit-fill-available;
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
   ${theme(o => [o.bg.background1])}
 `
 
