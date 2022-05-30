@@ -20,6 +20,7 @@ const Center = styled(Flex)`
 
 const MainFlexBox = styled(Center)`
   height: 100vh;
+  height: -webkit-fill-available;
   ${theme(o => [o.bg.background1])}
 `
 
@@ -36,9 +37,9 @@ const InfoBox = styled(Flex)`
 `
 
 const TextBox = styled(Flex)`
-  width: 20rem;
-  order: 0;
+  width: 30rem;
   @media screen and (max-width: 768px){
+    width: 20rem;
     order: 1;
   }
   flex-direction: column;
@@ -60,7 +61,6 @@ const TextLink = styled.a`
 `
 
 const Profile = styled(Center)`
-  order: 1;
   @media screen and (max-width: 768px){
     order: 0;
   }
