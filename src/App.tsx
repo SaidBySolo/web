@@ -49,7 +49,7 @@ const TextBox = styled(Flex)`
 
 const Heading = styled.h1`
   @media screen and (max-width: 768px){
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-top: 0px
   }
   ${theme(o => [o.font.text1, o.margin.horizontal(40), o.margin.top(40), o.margin.bottom(16)])}
@@ -57,24 +57,23 @@ const Heading = styled.h1`
 
 const SubHeading = styled.h2`
   @media screen and (max-width: 768px){
-    font-size: 1.25em;
+    ${theme(o => [o.typography(20)])}
   }
   ${theme(o => [o.font.text1, o.margin.horizontal(40), o.margin.top(0), o.margin.bottom(24)])}
 `
 
 const Text = styled.span`
-  font-size: 1.25em;
   @media screen and (max-width: 768px){
-    font-size: 1em;
     margin-bottom: 24px;
     margin-top: 0px;
+    ${theme(o => [o.typography(16)])}
   }
-  ${theme(o => [o.font.text2, o.margin.horizontal(40), o.margin.top(24), o.margin.bottom(64)])}
+  ${theme(o => [o.font.text2, o.typography(20), o.margin.horizontal(40), o.margin.top(24), o.margin.bottom(64)])}
 `
 
 const TextLink = styled.a`
   @media screen and (max-width: 768px){
-    font-size: 0.75em;
+    ${theme(o => [o.typography(12)])}
   }
   ${theme(o => [o.font.text4, o.margin.horizontal(40), o.margin.top(0), o.margin.bottom(16)])}
 `
