@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components'
-import { dark, light } from '@charcoal-ui/theme'
+import { dark } from '@charcoal-ui/theme'
 import { TextBox, LinkBox } from './components/TextBox'
 import { Heading, SubHeading, Text, Link, Description } from './components/base/Typography'
 import Footer from './components/Footer'
