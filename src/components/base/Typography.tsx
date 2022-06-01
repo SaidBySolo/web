@@ -10,7 +10,7 @@ export const SubHeading = styled.h2`
 `
 
 export const Text = styled.span`
-    ${theme(o => [o.font.text2, o.typography(16), o.margin.vertical(4)])}
+    ${theme(o => [o.font.text2, o.typography(16), o.margin.all(4)])}
 `
 
 export const Description = styled.span`
