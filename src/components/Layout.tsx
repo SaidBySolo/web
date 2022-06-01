@@ -5,11 +5,13 @@ const Layout = styled.div`
     display: grid;
     min-height: 100vh;
     height: 100%;
-
-	grid-template-areas:
-		"   .     .      .   "
-		"   .  container .   "
-		"footer footer footer";
+    @supports (-webkit-touch-callout: none) {
+      min-height: -webkit-fill-available;
+    }
+    grid-template-areas:
+	"   .     .      .   "
+	"   .  container .   "
+	"footer footer footer";
 
     ${theme(o => [o.bg.background1])}
 `
