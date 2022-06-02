@@ -9,9 +9,9 @@ const Layout = styled.div`
       min-height: -webkit-fill-available;
     }
     grid-template-areas:
-	"   .     .      .   "
-	"   .  container .   "
-	"footer footer footer";
+	    "   .     .      .   "
+	    "   .  container .   "
+	    "footer footer footer";
 
     ${theme(o => [o.bg.background1])}
 `

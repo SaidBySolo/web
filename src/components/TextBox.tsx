@@ -9,7 +9,5 @@ export const TextBox = styled(Flex)`
 
 export const LinkBox = styled(Flex)`
     ${theme(o => [o.margin.top(8)])}
-    @media screen and (max-width: 768px){
-    }
 `
 
