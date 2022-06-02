@@ -27,9 +27,9 @@ const App = () => (
         <DescriptionLink href="https://github.com/SaidBySolo/web">Web site</DescriptionLink>
         <Description>&nbsp;created using&nbsp;</Description>
         <DescriptionLink href="https://create-react-app.dev/">Create React App</DescriptionLink>
-        <Description>&nbsp;{'&'}&nbsp;</Description>
+        <Description>&nbsp;{"&"}&nbsp;</Description>
         <DescriptionLink href="https://styled-components.com/">styled-components</DescriptionLink>
-        <Description>&nbsp;{'&'}&nbsp;</Description>
+        <Description>&nbsp;{"&"}&nbsp;</Description>
         <DescriptionLink href="https://pixiv.github.io/charcoal/docs/">pixiv/charcoal</DescriptionLink>
         <Description>.</Description>
       </Footer>
