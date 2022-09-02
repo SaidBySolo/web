@@ -12,6 +12,9 @@ export const SubHeading = styled.h2`
 export const Text = styled.span`
   ${theme(o => [o.font.text2, o.typography(16), o.margin.all(4)])}
 `
+export const TextLink = styled.a`
+  ${theme(o => [o.font.text3, o.typography(16)])}
+`
 
 export const Description = styled.span`
   ${theme(o => [o.font.text3, o.typography(12)])}
