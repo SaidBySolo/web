@@ -12,5 +12,5 @@ export default defineConfig({
     build: {
         outDir: "build",
     },
-    base: "/"
+    base: "/web/"
 })
