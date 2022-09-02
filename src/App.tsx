@@ -21,7 +21,7 @@ const App = () => (
             <br />
             <Text><TextLink href="https://github.com/callistoteam">Team. Callisto</TextLink>Bot Developer<br />2020.08.12 ~ 2022.01.24</Text>
             <br />
-            <Text><TextLink href="https://koreaminecraft.net">Korea Minecraft Forum</TextLink>Manager<br />2020.08.15 ~ </Text>
+            <Text><TextLink href="https://koreaminecraft.net">한마포</TextLink>Manager<br />2020.08.15 ~ </Text>
             <br />
             <Text><TextLink href="https://zbcounter.net/">CounterOnline</TextLink>Developer<br />2021.01.30 ~ </Text>
             <br />
