@@ -15,22 +15,6 @@ const App = () => (
           <Heading>Ryu Juheon</Heading>
           <SubHeading>a.k.a SaidBySolo</SubHeading>
           <Text>I am a student developer who solves minor inconveniences with code.</Text>
-          <SubHeading>Work Experience</SubHeading>
-          <WrapBox>
-            <Text><TextLink href="https://github.com/saebasol">Saebasol</TextLink>Leader<br />2020.06.26 ~ </Text>
-            <br />
-            <Text><TextLink href="https://github.com/callistoteam">Team. Callisto</TextLink>Bot Developer<br />2020.08.12 ~ 2022.01.24</Text>
-            <br />
-            <Text><TextLink href="https://koreaminecraft.net">한마포</TextLink>Manager<br />2020.08.15 ~ </Text>
-            <br />
-            <Text><TextLink href="https://zbcounter.net/">CounterOnline</TextLink>Developer<br />2021.01.30 ~ </Text>
-            <br />
-            <Text><TextLink href="https://koreanbots.dev/">KOREANLIST</TextLink>SDK Developer<br />2021.07.10 ~ </Text>
-            <br />
-            <Text><TextLink href="https://team-crescendo.me/">Team Crescendo</TextLink>Developer<br />2021.07.19 ~ </Text>
-            <br />
-            <Text><TextLink href="https://korlark.com/">KorLARK</TextLink>Developer<br />2021.11.04 ~ </Text>
-          </WrapBox>
           <SubHeading>Contacts</SubHeading>
           <LinkBox>
             <Link href="mailto:saidbysolo@gmail.com">Mail</Link>
