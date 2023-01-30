@@ -1,8 +1,8 @@
 import React from "react"
 import { ThemeProvider } from 'styled-components'
 import { dark } from '@charcoal-ui/theme'
-import { TextBox, LinkBox, WrapBox } from './components/TextBox'
-import { Heading, SubHeading, Text, Link, Description, DescriptionLink, TextLink } from './components/base/Typography'
+import { TextBox, LinkBox } from './components/TextBox'
+import { Heading, SubHeading, Text, Link, Description, DescriptionLink } from './components/base/Typography'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
 import Container from './components/base/Container'
