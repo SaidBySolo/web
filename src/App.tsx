@@ -19,7 +19,6 @@ const App = () => (
           <LinkBox>
             <Link href="mailto:saidbysolo@gmail.com">Mail</Link>
             <Link href="https://github.com/SaidBySolo">Github</Link>
-            <Link href="https://discord.com/users/345265069132742657">Discord</Link>
           </LinkBox>
         </TextBox>
       </Container>
