@@ -2,7 +2,7 @@ import React from "react"
 import { ThemeProvider } from 'styled-components'
 import { dark } from '@charcoal-ui/theme'
 import { TextBox, LinkBox } from './components/TextBox'
-import { Heading, SubHeading, Text, Link, Description, DescriptionLink } from './components/base/Typography'
+import { Heading, SubHeading, Link, Description, DescriptionLink } from './components/base/Typography'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
 import Container from './components/base/Container'
@@ -14,7 +14,6 @@ const App = () => (
         <TextBox>
           <Heading>Ryu Juheon</Heading>
           <SubHeading>a.k.a SaidBySolo</SubHeading>
-          <Text>I am a student developer who solves minor inconveniences with code.</Text>
           <SubHeading>Contacts</SubHeading>
           <LinkBox>
             <Link href="mailto:saidbysolo@gmail.com">Mail</Link>
