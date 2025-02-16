@@ -16,7 +16,7 @@ const App = () => (
           <SubHeading>a.k.a SaidBySolo</SubHeading>
           <SubHeading>Contacts</SubHeading>
           <LinkBox>
-            <Link href="mailto:saidbysolo@gmail.com">Mail</Link>
+            <Link href="mailto:saidby@solo.moe">Mail</Link>
             <Link href="https://github.com/SaidBySolo">Github</Link>
           </LinkBox>
         </TextBox>
